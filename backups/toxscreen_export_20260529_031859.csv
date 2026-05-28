@@ -1,0 +1,15 @@
+id,user,smiles,druglikeness_score,lipinski_violations,veber_violations,toxicity_score,risk_level,result,ml_prediction,ml_confidence,most_similar_toxin,toxin_similarity,blockchain_tx,date
+1,default,CC(=O)OC1=CC=CC=C1C(=O)O,100.0,0,0,0.0,Low Risk,EXCELLENT,Hepatotoxic,93.0,Warfarin,0.2449,0xb5d8fc5faff6f966df929850558597e450ef9fef8d029f706106bcf3b82a33bf,2026-05-28 00:45:36
+2,monkey,CC(=O)NC1=CC=C(O)C=C1,72.5,0,0,55.0,High Risk,GOOD,Hepatotoxic,92.0,Warfarin,0.1875,0x97fc5b856a134db65c5c070ac68daec88af94bb6db9ab33bb94d1bba17cf01de,2026-05-28 01:41:29
+3,monkey,CCO,100.0,0,0,0.0,Low Risk,EXCELLENT,Non-Hepatotoxic,98.0,Methanol,0.2857,0x1ddd8a51ad5d830ca08e910e7b77588df5a0469f50e5f531fbb89415435e017c,2026-05-28 02:39:19
+4,monkey,CCO,100.0,0,0,0.0,Low Risk,EXCELLENT,Non-Hepatotoxic,98.0,Methanol,0.2857,0xff9fa384bfd5673f63d7a7d8b9a7b3b69be956b65f313921ea153a9e12b139f1,2026-05-28 02:49:14
+5,monkey,CC(=O)OC1=CC=CC=C1C(=O)O,80.0,0,0,40.0,Moderate Risk,EXCELLENT,Hepatotoxic,93.0,Warfarin,0.2449,0x56ae80aba7b8f0c647d61df579eab6f32549f965bd78d6c7944fc8d00ab67276,2026-05-29 01:28:06
+6,monkey,CC(=O)OC1=CC=CC=C1C(=O)O,80.0,0,0,40.0,Moderate Risk,EXCELLENT,Hepatotoxic,93.0,Warfarin,0.2449,0x487daeea3857c0cce9c4e845e89a8bb7396876abef4f7f00eee7b07809213a99,2026-05-29 01:29:00
+7,monkey,CC(=O)OC1=CC=CC=C1C(=O)O,80.0,0,0,40.0,Moderate Risk,EXCELLENT,Hepatotoxic,93.0,Warfarin,0.2449,0x2da52b7e861b6c14b6044ed5e74c17457c6e5e9fb69fdb037ac5a897ec2c8462,2026-05-29 01:32:54
+8,monkey,CC(=O)OC1=CC=CC=C1C(=O)O,80.0,0,0,40.0,Moderate Risk,EXCELLENT,Hepatotoxic,93.0,Warfarin,0.2449,0xe43ef7dd317804fae9ecc09553ca6ce9975fb110e14649ee6c60b390c87de27b,2026-05-29 01:53:46
+9,monkey,CC(=O)OC1=CC=CC=C1C(=O)O,80.0,0,0,40.0,Moderate Risk,EXCELLENT,Hepatotoxic,93.0,Warfarin,0.2449,0x68eb7bb0db9cffc21e44ab39006328de2ca9d67be87dd1d71c241b2e799d4c9c,2026-05-29 02:01:03
+10,monkey,CC(=O)OC1=CC=CC=C1C(=O)O,80.0,0,0,40.0,Moderate Risk,EXCELLENT,Hepatotoxic,93.0,Warfarin,0.2449,,2026-05-29 02:06:01
+11,monkey,CC(=O)OC1=CC=CC=C1C(=O)O,80.0,0,0,40.0,Moderate Risk,EXCELLENT,Hepatotoxic,93.0,Warfarin,0.2449,,2026-05-29 02:07:52
+12,monkey,CC(=O)OC1=CC=CC=C1C(=O)O,80.0,0,0,40.0,Moderate Risk,EXCELLENT,Hepatotoxic,93.0,Warfarin,0.2449,0x06a5c337788fdc941f224e22ad331875bad40ef108c3062e6d7e6dedd4ca9440,2026-05-29 02:08:28
+13,monkey,CCO,100.0,0,0,0.0,Low Risk,EXCELLENT,Non-Hepatotoxic,98.0,Methanol,0.2857,0xae8ea50c6e10bea4264499ed1af37d2378da3aae80f43d7d5706e14c4d1f8b12,2026-05-29 02:17:11
+14,monkey,CCO,100.0,0,0,0.0,Low Risk,EXCELLENT,Non-Hepatotoxic,98.0,Methanol,0.2857,0xa1c3fbd5a036a839010ccf477c45c56b3f7c49df9ea079d608482de7aa303113,2026-05-29 02:21:48

@@ -1,0 +1,11 @@
+name,smiles,expected_hepatotox,expected_herg,expected_nephrotox,expected_neurotox,expected_cytotox
+Aspirin,CC(=O)OC1=CC=CC=C1C(=O)O,Non-Toxic,Non-Blocker,Non-Toxic,Non-Toxic,Non-Toxic
+Paracetamol,CC(=O)NC1=CC=C(O)C=C1,Toxic,Non-Blocker,Toxic,Non-Toxic,Non-Toxic
+Ibuprofen,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,Toxic,Non-Blocker,Toxic,Non-Toxic,Non-Toxic
+Caffeine,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,Toxic,Non-Blocker,Toxic,Non-Toxic,Non-Toxic
+Morphine,CN1CCC23C4C1CC5=C2C(=C(C=C5)O)OC3C(C=C4)O,Non-Toxic,Non-Blocker,Non-Toxic,Toxic,Non-Toxic
+Diazepam,CN1C(=O)CN=C(C2=CC=CC=C2)C3=CC=CC=C3C1=O,Toxic,Non-Blocker,Non-Toxic,Toxic,Non-Toxic
+Penicillin G,CC1(C(N2C(S1)C(C2=O)NC(=O)CC3=CC=CC=C3)C(=O)O)C,Toxic,Non-Blocker,Non-Toxic,Non-Toxic,Non-Toxic
+Lidocaine,CCN(CC)CC(=O)Nc1c(C)cccc1C,Non-Toxic,Blocker,Toxic,Toxic,Non-Toxic
+Propranolol,CC(C)NCC(O)COc1cccc2ccccc12,Non-Toxic,Blocker,Non-Toxic,Toxic,Non-Toxic
+Verapamil,COc1ccc2c(c1)CC(C(C)C)C(=O)O2,Non-Toxic,Blocker,Non-Toxic,Toxic,Non-Toxic

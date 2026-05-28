@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  toxscreen-app:
+    build: .
+    ports:
+      - "8501:8501"
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - STREAMLIT_SERVER_PORT=8501
+      - STREAMLIT_SERVER_ADDRESS=0.0.0.0
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./toxscreen.db:/app/toxscreen.db
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  postgres:
+    image: postgres:14
+    environment:
+      POSTGRES_DB: toxscreen
+      POSTGRES_USER: toxscreen
+      POSTGRES_PASSWORD: toxscreen_secret
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+
+volumes:
+  postgres_data:

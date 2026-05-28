@@ -1,0 +1,43 @@
+name,smiles,toxic
+Acetaminophen,CC(=O)NC1=CC=C(O)C=C1,1
+Amiodarone,CCCCC1=C(C2=CC=CC=C2)C(=O)C3=CC=CC=C3O1,1
+Bosentan,CC(C)(C)C1=CC=C(C=C1)S(=O)(=O)NC2=CC=C(C=C2)OC3=CC=CC=C3,1
+Diclofenac,ClC1=CC=C(C=C1)C(=O)NC2=CC=CC=C2Cl,1
+Fluconazole,C1=CC(=C(C=C1)F)C(CN2C=NC=N2)O,1
+Isoniazid,C1=CC(=CC=C1)C(=O)NN,1
+Ketoconazole,CC(=O)N1CCN(CC1)C2=CC=C(C=C2)OC3=CC=C(C=C3)C4=CC=C(C=C4)Cl,1
+Nevirapine,CC1=CC=NC2=C1N(C(=O)NC2=O)C3=CC=CC=C3,1
+Rifampicin,CC1C=CC=C(C(=O)NC2=C(C(=O)C3=CC=CC=C3O)C(=O)C=CC=C(C)C(=O)O)C,1
+Troglitazone,CC1=C(C(=C(N1C(=O)C2=CC=CC=C2)C)C)C3=CC=C(C=C3)O,1
+Valproic Acid,CCCCCOC1=CC=C(C=C1)C(=O)O,1
+Zidovudine,CC1=CN(C(=O)NC1=O)C2CC(C(O2)CO)N=[N+]=[N-],1
+Aspirin,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Caffeine,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Ibuprofen,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+Metformin,CN(C)C(=N)N,0
+Naproxen,COC1=CC=C(C=C1)C(C)C(=O)O,0
+Paracetamol_low,CC(=O)NC1=CC=C(O)C=C1,0
+Penicillin,CC1(C(N2C(S1)C(C2=O)NC(=O)CC3=CC=CC=C3)C(=O)O)C,0
+Lisinopril,C1CC(N(C1)C(=O)C(CC2=CC=CC=C2)NC(=O)C(CC3=CC=CC=C3)N)C(=O)O,0
+Amlodipine,CCOC(=O)C1=C(NC(=C(C1c2ccccc2Cl)C(=O)OC)C)COCCN,0
+Omeprazole,CC1=CN=C(C(=C1OC)C)CS(=O)C2=NC3=C(N2)C=C(C=C3)OC,0
+Ethanol,CCO,0
+Glycine,C(C(=O)O)N,0
+Glucose,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Water,O,0
+Acetic Acid,CC(=O)O,0
+Glycerol,C(C(CO)O)O,0
+Urea,C(=O)(N)N,0
+Sorbitol,C(C(C(C(C(CO)O)O)O)O)O,0
+Citric Acid,C(C(=O)O)C(CC(=O)O)(C(=O)O)O,0
+Lactic Acid,CC(C(=O)O)O,0
+Carbon Tetrachloride,ClC(Cl)(Cl)Cl,1
+Chloroform,ClC(Cl)Cl,1
+Hydrazine,NN,1
+Benzene,c1ccccc1,1
+Vinyl Chloride,ClC=C,1
+Formaldehyde,C=O,1
+NDMA,CN(N=O)C,1
+Parathion,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Aflatoxin,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Dioxin,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1

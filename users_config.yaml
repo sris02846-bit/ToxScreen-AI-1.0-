@@ -1,0 +1,30 @@
+credentials:
+  usernames:
+    devil:
+      email: devil@toxscreen.ai
+      failed_login_attempts: 0
+      logged_in: false
+      name: Devil Pro User
+      password: '$2b$12$FD2u2AW6lCPDlogIO6BYrOdWlXwf4VejXmsibYZBDDCMgj2sAn3JG'
+      tier: pro
+    monkey:
+      email: monkey@toxscreen.ai
+      failed_login_attempts: 0
+      logged_in: false
+      name: Monkey Enterprise
+      password: '$2b$12$x38D7b7fVRbZB2CaUCytoO/AiyUtPsvS9HhfyvW5xCPI9N53djkBW'
+      tier: enterprise
+    demo:
+      email: demo@toxscreen.ai
+      failed_login_attempts: 0
+      logged_in: false
+      name: Demo User
+      password: '$2b$12$/6gIkLLkPjlZ4/WUXxmdmOvWv3YFENWIx5o8KzQPEQnlW2EOai97.'
+      tier: free
+cookie:
+  expiry_days: 30
+  key: toxscreen_ai_random_key_2024
+  name: toxscreen_cookie
+pre-authorized:
+  emails:
+  - admin@toxscreen.ai

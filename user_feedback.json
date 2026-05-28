@@ -1,0 +1,37 @@
+[
+  {
+    "timestamp": "2026-05-29T02:55:51.690088",
+    "username": "Researcher A",
+    "page": "Predict",
+    "rating": 4,
+    "comment": "Great tool for quick screening!"
+  },
+  {
+    "timestamp": "2026-05-29T02:55:51.690465",
+    "username": "Researcher B",
+    "page": "ADME Panel",
+    "rating": 5,
+    "comment": "Very useful ADME predictions."
+  },
+  {
+    "timestamp": "2026-05-29T02:55:51.691725",
+    "username": "Student C",
+    "page": "Batch Process",
+    "rating": 4,
+    "comment": "Would like more visualization options."
+  },
+  {
+    "timestamp": "2026-05-29T02:55:51.692824",
+    "username": "Developer D",
+    "page": "PDF",
+    "rating": 5,
+    "comment": "API integration works well."
+  },
+  {
+    "timestamp": "2026-05-29T02:55:51.694328",
+    "username": "Professor E",
+    "page": "Predict",
+    "rating": 3,
+    "comment": "Excellent for teaching purposes."
+  }
+]

@@ -1,0 +1,18 @@
+name,smiles,category,toxicity_level
+Aflatoxin B1,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,Mycotoxin,High
+Arsenic trioxide,O=[As]O[As]=O,Heavy metal,High
+Benzene,c1ccccc1,Solvent,Medium
+Carbon tetrachloride,ClC(Cl)(Cl)Cl,Solvent,High
+Chloroform,ClC(Cl)Cl,Solvent,Medium
+Dioxin (TCDD),Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,Environmental,High
+Ethylene oxide,C1CO1,Alkylating agent,High
+Formaldehyde,C=O,Aldehyde,Medium
+Hydrazine,NN,Rocket fuel,High
+Methanol,CO,Solvent,Medium
+N-Nitrosodimethylamine,CN(N=O)C,Nitrosamine,High
+Parathion,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],Pesticide,High
+Polychlorinated biphenyl,Clc1cc(Cl)c(Cl)c(Cl)c1c2c(Cl)c(Cl)c(Cl)c(Cl)c2Cl,Industrial,High
+Sarin,CC(C)OP(=O)(C)F,Nerve agent,High
+Thalidomide,O=C1CCC(N1)C(=O)c2ccccc2C(=O)N3C(=O)CCC3=O,Pharmaceutical,Medium
+Vinyl chloride,ClC=C,Monomer,High
+Warfarin,CC(=O)CC(c1ccccc1)c2c(c3ccccc3oc2=O)O,Pharmaceutical,Medium

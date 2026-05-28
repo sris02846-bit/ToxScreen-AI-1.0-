@@ -1,0 +1,7 @@
+Synced: CC(=O)OC1=CC=CC=C1C(=O)O - Found in: PubChem
+Synced: CC(=O)NC1=CC=C(O)C=C1 - Found in: PubChem
+Synced 2 compounds
+Synced: CC(=O)OC1=CC=CC=C1C(=O)O - Found in: PubChem, Inxight Drugs
+Synced: CC(=O)NC1=CC=C(O)C=C1 - Found in: PubChem, Inxight Drugs
+Synced: CCO - Found in: PubChem, Inxight Drugs
+Synced 3 compounds

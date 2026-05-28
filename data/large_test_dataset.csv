@@ -1,0 +1,1001 @@
+name,smiles,toxic
+Aspirin_0,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_0,ClC(Cl)(Cl)Cl,1
+Paracetamol_1,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_1,NN,1
+Ibuprofen_2,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_2,CN(N=O)C,1
+Caffeine_3,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_3,ClC=C,1
+Ethanol_4,CCO,0
+Benzene_4,c1ccccc1,1
+Glycine_5,C(C(=O)O)N,0
+Chloroform_5,ClC(Cl)Cl,1
+Acetic Acid_6,CC(=O)O,0
+Parathion_6,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_7,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_7,C=O,1
+Cyclohexane_8,C1CCCCC1,0
+Cyanide_8,N#C,1
+Acetone_9,CC(=O)C,0
+Sarin_9,CC(C)OP(=O)(C)F,1
+Methanol_10,CO,0
+Arsenic_10,O=[As]O[As]=O,1
+Water_11,O,0
+Mercury_11,[Hg],1
+Glycerol_12,C(C(CO)O)O,0
+Lead_12,[Pb],1
+Urea_13,C(=O)(N)N,0
+Dioxin_13,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_14,CC(C(=O)O)O,0
+Aflatoxin_14,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_15,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_15,ClC(Cl)(Cl)Cl,1
+Paracetamol_16,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_16,NN,1
+Ibuprofen_17,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_17,CN(N=O)C,1
+Caffeine_18,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_18,ClC=C,1
+Ethanol_19,CCO,0
+Benzene_19,c1ccccc1,1
+Glycine_20,C(C(=O)O)N,0
+Chloroform_20,ClC(Cl)Cl,1
+Acetic Acid_21,CC(=O)O,0
+Parathion_21,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_22,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_22,C=O,1
+Cyclohexane_23,C1CCCCC1,0
+Cyanide_23,N#C,1
+Acetone_24,CC(=O)C,0
+Sarin_24,CC(C)OP(=O)(C)F,1
+Methanol_25,CO,0
+Arsenic_25,O=[As]O[As]=O,1
+Water_26,O,0
+Mercury_26,[Hg],1
+Glycerol_27,C(C(CO)O)O,0
+Lead_27,[Pb],1
+Urea_28,C(=O)(N)N,0
+Dioxin_28,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_29,CC(C(=O)O)O,0
+Aflatoxin_29,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_30,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_30,ClC(Cl)(Cl)Cl,1
+Paracetamol_31,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_31,NN,1
+Ibuprofen_32,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_32,CN(N=O)C,1
+Caffeine_33,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_33,ClC=C,1
+Ethanol_34,CCO,0
+Benzene_34,c1ccccc1,1
+Glycine_35,C(C(=O)O)N,0
+Chloroform_35,ClC(Cl)Cl,1
+Acetic Acid_36,CC(=O)O,0
+Parathion_36,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_37,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_37,C=O,1
+Cyclohexane_38,C1CCCCC1,0
+Cyanide_38,N#C,1
+Acetone_39,CC(=O)C,0
+Sarin_39,CC(C)OP(=O)(C)F,1
+Methanol_40,CO,0
+Arsenic_40,O=[As]O[As]=O,1
+Water_41,O,0
+Mercury_41,[Hg],1
+Glycerol_42,C(C(CO)O)O,0
+Lead_42,[Pb],1
+Urea_43,C(=O)(N)N,0
+Dioxin_43,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_44,CC(C(=O)O)O,0
+Aflatoxin_44,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_45,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_45,ClC(Cl)(Cl)Cl,1
+Paracetamol_46,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_46,NN,1
+Ibuprofen_47,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_47,CN(N=O)C,1
+Caffeine_48,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_48,ClC=C,1
+Ethanol_49,CCO,0
+Benzene_49,c1ccccc1,1
+Glycine_50,C(C(=O)O)N,0
+Chloroform_50,ClC(Cl)Cl,1
+Acetic Acid_51,CC(=O)O,0
+Parathion_51,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_52,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_52,C=O,1
+Cyclohexane_53,C1CCCCC1,0
+Cyanide_53,N#C,1
+Acetone_54,CC(=O)C,0
+Sarin_54,CC(C)OP(=O)(C)F,1
+Methanol_55,CO,0
+Arsenic_55,O=[As]O[As]=O,1
+Water_56,O,0
+Mercury_56,[Hg],1
+Glycerol_57,C(C(CO)O)O,0
+Lead_57,[Pb],1
+Urea_58,C(=O)(N)N,0
+Dioxin_58,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_59,CC(C(=O)O)O,0
+Aflatoxin_59,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_60,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_60,ClC(Cl)(Cl)Cl,1
+Paracetamol_61,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_61,NN,1
+Ibuprofen_62,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_62,CN(N=O)C,1
+Caffeine_63,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_63,ClC=C,1
+Ethanol_64,CCO,0
+Benzene_64,c1ccccc1,1
+Glycine_65,C(C(=O)O)N,0
+Chloroform_65,ClC(Cl)Cl,1
+Acetic Acid_66,CC(=O)O,0
+Parathion_66,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_67,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_67,C=O,1
+Cyclohexane_68,C1CCCCC1,0
+Cyanide_68,N#C,1
+Acetone_69,CC(=O)C,0
+Sarin_69,CC(C)OP(=O)(C)F,1
+Methanol_70,CO,0
+Arsenic_70,O=[As]O[As]=O,1
+Water_71,O,0
+Mercury_71,[Hg],1
+Glycerol_72,C(C(CO)O)O,0
+Lead_72,[Pb],1
+Urea_73,C(=O)(N)N,0
+Dioxin_73,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_74,CC(C(=O)O)O,0
+Aflatoxin_74,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_75,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_75,ClC(Cl)(Cl)Cl,1
+Paracetamol_76,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_76,NN,1
+Ibuprofen_77,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_77,CN(N=O)C,1
+Caffeine_78,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_78,ClC=C,1
+Ethanol_79,CCO,0
+Benzene_79,c1ccccc1,1
+Glycine_80,C(C(=O)O)N,0
+Chloroform_80,ClC(Cl)Cl,1
+Acetic Acid_81,CC(=O)O,0
+Parathion_81,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_82,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_82,C=O,1
+Cyclohexane_83,C1CCCCC1,0
+Cyanide_83,N#C,1
+Acetone_84,CC(=O)C,0
+Sarin_84,CC(C)OP(=O)(C)F,1
+Methanol_85,CO,0
+Arsenic_85,O=[As]O[As]=O,1
+Water_86,O,0
+Mercury_86,[Hg],1
+Glycerol_87,C(C(CO)O)O,0
+Lead_87,[Pb],1
+Urea_88,C(=O)(N)N,0
+Dioxin_88,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_89,CC(C(=O)O)O,0
+Aflatoxin_89,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_90,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_90,ClC(Cl)(Cl)Cl,1
+Paracetamol_91,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_91,NN,1
+Ibuprofen_92,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_92,CN(N=O)C,1
+Caffeine_93,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_93,ClC=C,1
+Ethanol_94,CCO,0
+Benzene_94,c1ccccc1,1
+Glycine_95,C(C(=O)O)N,0
+Chloroform_95,ClC(Cl)Cl,1
+Acetic Acid_96,CC(=O)O,0
+Parathion_96,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_97,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_97,C=O,1
+Cyclohexane_98,C1CCCCC1,0
+Cyanide_98,N#C,1
+Acetone_99,CC(=O)C,0
+Sarin_99,CC(C)OP(=O)(C)F,1
+Methanol_100,CO,0
+Arsenic_100,O=[As]O[As]=O,1
+Water_101,O,0
+Mercury_101,[Hg],1
+Glycerol_102,C(C(CO)O)O,0
+Lead_102,[Pb],1
+Urea_103,C(=O)(N)N,0
+Dioxin_103,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_104,CC(C(=O)O)O,0
+Aflatoxin_104,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_105,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_105,ClC(Cl)(Cl)Cl,1
+Paracetamol_106,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_106,NN,1
+Ibuprofen_107,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_107,CN(N=O)C,1
+Caffeine_108,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_108,ClC=C,1
+Ethanol_109,CCO,0
+Benzene_109,c1ccccc1,1
+Glycine_110,C(C(=O)O)N,0
+Chloroform_110,ClC(Cl)Cl,1
+Acetic Acid_111,CC(=O)O,0
+Parathion_111,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_112,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_112,C=O,1
+Cyclohexane_113,C1CCCCC1,0
+Cyanide_113,N#C,1
+Acetone_114,CC(=O)C,0
+Sarin_114,CC(C)OP(=O)(C)F,1
+Methanol_115,CO,0
+Arsenic_115,O=[As]O[As]=O,1
+Water_116,O,0
+Mercury_116,[Hg],1
+Glycerol_117,C(C(CO)O)O,0
+Lead_117,[Pb],1
+Urea_118,C(=O)(N)N,0
+Dioxin_118,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_119,CC(C(=O)O)O,0
+Aflatoxin_119,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_120,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_120,ClC(Cl)(Cl)Cl,1
+Paracetamol_121,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_121,NN,1
+Ibuprofen_122,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_122,CN(N=O)C,1
+Caffeine_123,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_123,ClC=C,1
+Ethanol_124,CCO,0
+Benzene_124,c1ccccc1,1
+Glycine_125,C(C(=O)O)N,0
+Chloroform_125,ClC(Cl)Cl,1
+Acetic Acid_126,CC(=O)O,0
+Parathion_126,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_127,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_127,C=O,1
+Cyclohexane_128,C1CCCCC1,0
+Cyanide_128,N#C,1
+Acetone_129,CC(=O)C,0
+Sarin_129,CC(C)OP(=O)(C)F,1
+Methanol_130,CO,0
+Arsenic_130,O=[As]O[As]=O,1
+Water_131,O,0
+Mercury_131,[Hg],1
+Glycerol_132,C(C(CO)O)O,0
+Lead_132,[Pb],1
+Urea_133,C(=O)(N)N,0
+Dioxin_133,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_134,CC(C(=O)O)O,0
+Aflatoxin_134,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_135,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_135,ClC(Cl)(Cl)Cl,1
+Paracetamol_136,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_136,NN,1
+Ibuprofen_137,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_137,CN(N=O)C,1
+Caffeine_138,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_138,ClC=C,1
+Ethanol_139,CCO,0
+Benzene_139,c1ccccc1,1
+Glycine_140,C(C(=O)O)N,0
+Chloroform_140,ClC(Cl)Cl,1
+Acetic Acid_141,CC(=O)O,0
+Parathion_141,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_142,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_142,C=O,1
+Cyclohexane_143,C1CCCCC1,0
+Cyanide_143,N#C,1
+Acetone_144,CC(=O)C,0
+Sarin_144,CC(C)OP(=O)(C)F,1
+Methanol_145,CO,0
+Arsenic_145,O=[As]O[As]=O,1
+Water_146,O,0
+Mercury_146,[Hg],1
+Glycerol_147,C(C(CO)O)O,0
+Lead_147,[Pb],1
+Urea_148,C(=O)(N)N,0
+Dioxin_148,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_149,CC(C(=O)O)O,0
+Aflatoxin_149,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_150,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_150,ClC(Cl)(Cl)Cl,1
+Paracetamol_151,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_151,NN,1
+Ibuprofen_152,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_152,CN(N=O)C,1
+Caffeine_153,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_153,ClC=C,1
+Ethanol_154,CCO,0
+Benzene_154,c1ccccc1,1
+Glycine_155,C(C(=O)O)N,0
+Chloroform_155,ClC(Cl)Cl,1
+Acetic Acid_156,CC(=O)O,0
+Parathion_156,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_157,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_157,C=O,1
+Cyclohexane_158,C1CCCCC1,0
+Cyanide_158,N#C,1
+Acetone_159,CC(=O)C,0
+Sarin_159,CC(C)OP(=O)(C)F,1
+Methanol_160,CO,0
+Arsenic_160,O=[As]O[As]=O,1
+Water_161,O,0
+Mercury_161,[Hg],1
+Glycerol_162,C(C(CO)O)O,0
+Lead_162,[Pb],1
+Urea_163,C(=O)(N)N,0
+Dioxin_163,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_164,CC(C(=O)O)O,0
+Aflatoxin_164,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_165,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_165,ClC(Cl)(Cl)Cl,1
+Paracetamol_166,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_166,NN,1
+Ibuprofen_167,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_167,CN(N=O)C,1
+Caffeine_168,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_168,ClC=C,1
+Ethanol_169,CCO,0
+Benzene_169,c1ccccc1,1
+Glycine_170,C(C(=O)O)N,0
+Chloroform_170,ClC(Cl)Cl,1
+Acetic Acid_171,CC(=O)O,0
+Parathion_171,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_172,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_172,C=O,1
+Cyclohexane_173,C1CCCCC1,0
+Cyanide_173,N#C,1
+Acetone_174,CC(=O)C,0
+Sarin_174,CC(C)OP(=O)(C)F,1
+Methanol_175,CO,0
+Arsenic_175,O=[As]O[As]=O,1
+Water_176,O,0
+Mercury_176,[Hg],1
+Glycerol_177,C(C(CO)O)O,0
+Lead_177,[Pb],1
+Urea_178,C(=O)(N)N,0
+Dioxin_178,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_179,CC(C(=O)O)O,0
+Aflatoxin_179,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_180,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_180,ClC(Cl)(Cl)Cl,1
+Paracetamol_181,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_181,NN,1
+Ibuprofen_182,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_182,CN(N=O)C,1
+Caffeine_183,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_183,ClC=C,1
+Ethanol_184,CCO,0
+Benzene_184,c1ccccc1,1
+Glycine_185,C(C(=O)O)N,0
+Chloroform_185,ClC(Cl)Cl,1
+Acetic Acid_186,CC(=O)O,0
+Parathion_186,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_187,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_187,C=O,1
+Cyclohexane_188,C1CCCCC1,0
+Cyanide_188,N#C,1
+Acetone_189,CC(=O)C,0
+Sarin_189,CC(C)OP(=O)(C)F,1
+Methanol_190,CO,0
+Arsenic_190,O=[As]O[As]=O,1
+Water_191,O,0
+Mercury_191,[Hg],1
+Glycerol_192,C(C(CO)O)O,0
+Lead_192,[Pb],1
+Urea_193,C(=O)(N)N,0
+Dioxin_193,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_194,CC(C(=O)O)O,0
+Aflatoxin_194,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_195,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_195,ClC(Cl)(Cl)Cl,1
+Paracetamol_196,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_196,NN,1
+Ibuprofen_197,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_197,CN(N=O)C,1
+Caffeine_198,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_198,ClC=C,1
+Ethanol_199,CCO,0
+Benzene_199,c1ccccc1,1
+Glycine_200,C(C(=O)O)N,0
+Chloroform_200,ClC(Cl)Cl,1
+Acetic Acid_201,CC(=O)O,0
+Parathion_201,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_202,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_202,C=O,1
+Cyclohexane_203,C1CCCCC1,0
+Cyanide_203,N#C,1
+Acetone_204,CC(=O)C,0
+Sarin_204,CC(C)OP(=O)(C)F,1
+Methanol_205,CO,0
+Arsenic_205,O=[As]O[As]=O,1
+Water_206,O,0
+Mercury_206,[Hg],1
+Glycerol_207,C(C(CO)O)O,0
+Lead_207,[Pb],1
+Urea_208,C(=O)(N)N,0
+Dioxin_208,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_209,CC(C(=O)O)O,0
+Aflatoxin_209,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_210,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_210,ClC(Cl)(Cl)Cl,1
+Paracetamol_211,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_211,NN,1
+Ibuprofen_212,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_212,CN(N=O)C,1
+Caffeine_213,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_213,ClC=C,1
+Ethanol_214,CCO,0
+Benzene_214,c1ccccc1,1
+Glycine_215,C(C(=O)O)N,0
+Chloroform_215,ClC(Cl)Cl,1
+Acetic Acid_216,CC(=O)O,0
+Parathion_216,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_217,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_217,C=O,1
+Cyclohexane_218,C1CCCCC1,0
+Cyanide_218,N#C,1
+Acetone_219,CC(=O)C,0
+Sarin_219,CC(C)OP(=O)(C)F,1
+Methanol_220,CO,0
+Arsenic_220,O=[As]O[As]=O,1
+Water_221,O,0
+Mercury_221,[Hg],1
+Glycerol_222,C(C(CO)O)O,0
+Lead_222,[Pb],1
+Urea_223,C(=O)(N)N,0
+Dioxin_223,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_224,CC(C(=O)O)O,0
+Aflatoxin_224,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_225,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_225,ClC(Cl)(Cl)Cl,1
+Paracetamol_226,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_226,NN,1
+Ibuprofen_227,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_227,CN(N=O)C,1
+Caffeine_228,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_228,ClC=C,1
+Ethanol_229,CCO,0
+Benzene_229,c1ccccc1,1
+Glycine_230,C(C(=O)O)N,0
+Chloroform_230,ClC(Cl)Cl,1
+Acetic Acid_231,CC(=O)O,0
+Parathion_231,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_232,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_232,C=O,1
+Cyclohexane_233,C1CCCCC1,0
+Cyanide_233,N#C,1
+Acetone_234,CC(=O)C,0
+Sarin_234,CC(C)OP(=O)(C)F,1
+Methanol_235,CO,0
+Arsenic_235,O=[As]O[As]=O,1
+Water_236,O,0
+Mercury_236,[Hg],1
+Glycerol_237,C(C(CO)O)O,0
+Lead_237,[Pb],1
+Urea_238,C(=O)(N)N,0
+Dioxin_238,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_239,CC(C(=O)O)O,0
+Aflatoxin_239,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_240,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_240,ClC(Cl)(Cl)Cl,1
+Paracetamol_241,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_241,NN,1
+Ibuprofen_242,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_242,CN(N=O)C,1
+Caffeine_243,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_243,ClC=C,1
+Ethanol_244,CCO,0
+Benzene_244,c1ccccc1,1
+Glycine_245,C(C(=O)O)N,0
+Chloroform_245,ClC(Cl)Cl,1
+Acetic Acid_246,CC(=O)O,0
+Parathion_246,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_247,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_247,C=O,1
+Cyclohexane_248,C1CCCCC1,0
+Cyanide_248,N#C,1
+Acetone_249,CC(=O)C,0
+Sarin_249,CC(C)OP(=O)(C)F,1
+Methanol_250,CO,0
+Arsenic_250,O=[As]O[As]=O,1
+Water_251,O,0
+Mercury_251,[Hg],1
+Glycerol_252,C(C(CO)O)O,0
+Lead_252,[Pb],1
+Urea_253,C(=O)(N)N,0
+Dioxin_253,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_254,CC(C(=O)O)O,0
+Aflatoxin_254,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_255,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_255,ClC(Cl)(Cl)Cl,1
+Paracetamol_256,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_256,NN,1
+Ibuprofen_257,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_257,CN(N=O)C,1
+Caffeine_258,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_258,ClC=C,1
+Ethanol_259,CCO,0
+Benzene_259,c1ccccc1,1
+Glycine_260,C(C(=O)O)N,0
+Chloroform_260,ClC(Cl)Cl,1
+Acetic Acid_261,CC(=O)O,0
+Parathion_261,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_262,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_262,C=O,1
+Cyclohexane_263,C1CCCCC1,0
+Cyanide_263,N#C,1
+Acetone_264,CC(=O)C,0
+Sarin_264,CC(C)OP(=O)(C)F,1
+Methanol_265,CO,0
+Arsenic_265,O=[As]O[As]=O,1
+Water_266,O,0
+Mercury_266,[Hg],1
+Glycerol_267,C(C(CO)O)O,0
+Lead_267,[Pb],1
+Urea_268,C(=O)(N)N,0
+Dioxin_268,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_269,CC(C(=O)O)O,0
+Aflatoxin_269,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_270,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_270,ClC(Cl)(Cl)Cl,1
+Paracetamol_271,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_271,NN,1
+Ibuprofen_272,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_272,CN(N=O)C,1
+Caffeine_273,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_273,ClC=C,1
+Ethanol_274,CCO,0
+Benzene_274,c1ccccc1,1
+Glycine_275,C(C(=O)O)N,0
+Chloroform_275,ClC(Cl)Cl,1
+Acetic Acid_276,CC(=O)O,0
+Parathion_276,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_277,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_277,C=O,1
+Cyclohexane_278,C1CCCCC1,0
+Cyanide_278,N#C,1
+Acetone_279,CC(=O)C,0
+Sarin_279,CC(C)OP(=O)(C)F,1
+Methanol_280,CO,0
+Arsenic_280,O=[As]O[As]=O,1
+Water_281,O,0
+Mercury_281,[Hg],1
+Glycerol_282,C(C(CO)O)O,0
+Lead_282,[Pb],1
+Urea_283,C(=O)(N)N,0
+Dioxin_283,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_284,CC(C(=O)O)O,0
+Aflatoxin_284,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_285,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_285,ClC(Cl)(Cl)Cl,1
+Paracetamol_286,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_286,NN,1
+Ibuprofen_287,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_287,CN(N=O)C,1
+Caffeine_288,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_288,ClC=C,1
+Ethanol_289,CCO,0
+Benzene_289,c1ccccc1,1
+Glycine_290,C(C(=O)O)N,0
+Chloroform_290,ClC(Cl)Cl,1
+Acetic Acid_291,CC(=O)O,0
+Parathion_291,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_292,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_292,C=O,1
+Cyclohexane_293,C1CCCCC1,0
+Cyanide_293,N#C,1
+Acetone_294,CC(=O)C,0
+Sarin_294,CC(C)OP(=O)(C)F,1
+Methanol_295,CO,0
+Arsenic_295,O=[As]O[As]=O,1
+Water_296,O,0
+Mercury_296,[Hg],1
+Glycerol_297,C(C(CO)O)O,0
+Lead_297,[Pb],1
+Urea_298,C(=O)(N)N,0
+Dioxin_298,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_299,CC(C(=O)O)O,0
+Aflatoxin_299,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_300,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_300,ClC(Cl)(Cl)Cl,1
+Paracetamol_301,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_301,NN,1
+Ibuprofen_302,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_302,CN(N=O)C,1
+Caffeine_303,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_303,ClC=C,1
+Ethanol_304,CCO,0
+Benzene_304,c1ccccc1,1
+Glycine_305,C(C(=O)O)N,0
+Chloroform_305,ClC(Cl)Cl,1
+Acetic Acid_306,CC(=O)O,0
+Parathion_306,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_307,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_307,C=O,1
+Cyclohexane_308,C1CCCCC1,0
+Cyanide_308,N#C,1
+Acetone_309,CC(=O)C,0
+Sarin_309,CC(C)OP(=O)(C)F,1
+Methanol_310,CO,0
+Arsenic_310,O=[As]O[As]=O,1
+Water_311,O,0
+Mercury_311,[Hg],1
+Glycerol_312,C(C(CO)O)O,0
+Lead_312,[Pb],1
+Urea_313,C(=O)(N)N,0
+Dioxin_313,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_314,CC(C(=O)O)O,0
+Aflatoxin_314,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_315,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_315,ClC(Cl)(Cl)Cl,1
+Paracetamol_316,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_316,NN,1
+Ibuprofen_317,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_317,CN(N=O)C,1
+Caffeine_318,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_318,ClC=C,1
+Ethanol_319,CCO,0
+Benzene_319,c1ccccc1,1
+Glycine_320,C(C(=O)O)N,0
+Chloroform_320,ClC(Cl)Cl,1
+Acetic Acid_321,CC(=O)O,0
+Parathion_321,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_322,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_322,C=O,1
+Cyclohexane_323,C1CCCCC1,0
+Cyanide_323,N#C,1
+Acetone_324,CC(=O)C,0
+Sarin_324,CC(C)OP(=O)(C)F,1
+Methanol_325,CO,0
+Arsenic_325,O=[As]O[As]=O,1
+Water_326,O,0
+Mercury_326,[Hg],1
+Glycerol_327,C(C(CO)O)O,0
+Lead_327,[Pb],1
+Urea_328,C(=O)(N)N,0
+Dioxin_328,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_329,CC(C(=O)O)O,0
+Aflatoxin_329,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_330,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_330,ClC(Cl)(Cl)Cl,1
+Paracetamol_331,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_331,NN,1
+Ibuprofen_332,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_332,CN(N=O)C,1
+Caffeine_333,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_333,ClC=C,1
+Ethanol_334,CCO,0
+Benzene_334,c1ccccc1,1
+Glycine_335,C(C(=O)O)N,0
+Chloroform_335,ClC(Cl)Cl,1
+Acetic Acid_336,CC(=O)O,0
+Parathion_336,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_337,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_337,C=O,1
+Cyclohexane_338,C1CCCCC1,0
+Cyanide_338,N#C,1
+Acetone_339,CC(=O)C,0
+Sarin_339,CC(C)OP(=O)(C)F,1
+Methanol_340,CO,0
+Arsenic_340,O=[As]O[As]=O,1
+Water_341,O,0
+Mercury_341,[Hg],1
+Glycerol_342,C(C(CO)O)O,0
+Lead_342,[Pb],1
+Urea_343,C(=O)(N)N,0
+Dioxin_343,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_344,CC(C(=O)O)O,0
+Aflatoxin_344,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_345,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_345,ClC(Cl)(Cl)Cl,1
+Paracetamol_346,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_346,NN,1
+Ibuprofen_347,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_347,CN(N=O)C,1
+Caffeine_348,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_348,ClC=C,1
+Ethanol_349,CCO,0
+Benzene_349,c1ccccc1,1
+Glycine_350,C(C(=O)O)N,0
+Chloroform_350,ClC(Cl)Cl,1
+Acetic Acid_351,CC(=O)O,0
+Parathion_351,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_352,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_352,C=O,1
+Cyclohexane_353,C1CCCCC1,0
+Cyanide_353,N#C,1
+Acetone_354,CC(=O)C,0
+Sarin_354,CC(C)OP(=O)(C)F,1
+Methanol_355,CO,0
+Arsenic_355,O=[As]O[As]=O,1
+Water_356,O,0
+Mercury_356,[Hg],1
+Glycerol_357,C(C(CO)O)O,0
+Lead_357,[Pb],1
+Urea_358,C(=O)(N)N,0
+Dioxin_358,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_359,CC(C(=O)O)O,0
+Aflatoxin_359,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_360,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_360,ClC(Cl)(Cl)Cl,1
+Paracetamol_361,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_361,NN,1
+Ibuprofen_362,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_362,CN(N=O)C,1
+Caffeine_363,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_363,ClC=C,1
+Ethanol_364,CCO,0
+Benzene_364,c1ccccc1,1
+Glycine_365,C(C(=O)O)N,0
+Chloroform_365,ClC(Cl)Cl,1
+Acetic Acid_366,CC(=O)O,0
+Parathion_366,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_367,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_367,C=O,1
+Cyclohexane_368,C1CCCCC1,0
+Cyanide_368,N#C,1
+Acetone_369,CC(=O)C,0
+Sarin_369,CC(C)OP(=O)(C)F,1
+Methanol_370,CO,0
+Arsenic_370,O=[As]O[As]=O,1
+Water_371,O,0
+Mercury_371,[Hg],1
+Glycerol_372,C(C(CO)O)O,0
+Lead_372,[Pb],1
+Urea_373,C(=O)(N)N,0
+Dioxin_373,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_374,CC(C(=O)O)O,0
+Aflatoxin_374,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_375,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_375,ClC(Cl)(Cl)Cl,1
+Paracetamol_376,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_376,NN,1
+Ibuprofen_377,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_377,CN(N=O)C,1
+Caffeine_378,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_378,ClC=C,1
+Ethanol_379,CCO,0
+Benzene_379,c1ccccc1,1
+Glycine_380,C(C(=O)O)N,0
+Chloroform_380,ClC(Cl)Cl,1
+Acetic Acid_381,CC(=O)O,0
+Parathion_381,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_382,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_382,C=O,1
+Cyclohexane_383,C1CCCCC1,0
+Cyanide_383,N#C,1
+Acetone_384,CC(=O)C,0
+Sarin_384,CC(C)OP(=O)(C)F,1
+Methanol_385,CO,0
+Arsenic_385,O=[As]O[As]=O,1
+Water_386,O,0
+Mercury_386,[Hg],1
+Glycerol_387,C(C(CO)O)O,0
+Lead_387,[Pb],1
+Urea_388,C(=O)(N)N,0
+Dioxin_388,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_389,CC(C(=O)O)O,0
+Aflatoxin_389,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_390,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_390,ClC(Cl)(Cl)Cl,1
+Paracetamol_391,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_391,NN,1
+Ibuprofen_392,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_392,CN(N=O)C,1
+Caffeine_393,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_393,ClC=C,1
+Ethanol_394,CCO,0
+Benzene_394,c1ccccc1,1
+Glycine_395,C(C(=O)O)N,0
+Chloroform_395,ClC(Cl)Cl,1
+Acetic Acid_396,CC(=O)O,0
+Parathion_396,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_397,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_397,C=O,1
+Cyclohexane_398,C1CCCCC1,0
+Cyanide_398,N#C,1
+Acetone_399,CC(=O)C,0
+Sarin_399,CC(C)OP(=O)(C)F,1
+Methanol_400,CO,0
+Arsenic_400,O=[As]O[As]=O,1
+Water_401,O,0
+Mercury_401,[Hg],1
+Glycerol_402,C(C(CO)O)O,0
+Lead_402,[Pb],1
+Urea_403,C(=O)(N)N,0
+Dioxin_403,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_404,CC(C(=O)O)O,0
+Aflatoxin_404,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_405,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_405,ClC(Cl)(Cl)Cl,1
+Paracetamol_406,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_406,NN,1
+Ibuprofen_407,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_407,CN(N=O)C,1
+Caffeine_408,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_408,ClC=C,1
+Ethanol_409,CCO,0
+Benzene_409,c1ccccc1,1
+Glycine_410,C(C(=O)O)N,0
+Chloroform_410,ClC(Cl)Cl,1
+Acetic Acid_411,CC(=O)O,0
+Parathion_411,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_412,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_412,C=O,1
+Cyclohexane_413,C1CCCCC1,0
+Cyanide_413,N#C,1
+Acetone_414,CC(=O)C,0
+Sarin_414,CC(C)OP(=O)(C)F,1
+Methanol_415,CO,0
+Arsenic_415,O=[As]O[As]=O,1
+Water_416,O,0
+Mercury_416,[Hg],1
+Glycerol_417,C(C(CO)O)O,0
+Lead_417,[Pb],1
+Urea_418,C(=O)(N)N,0
+Dioxin_418,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_419,CC(C(=O)O)O,0
+Aflatoxin_419,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_420,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_420,ClC(Cl)(Cl)Cl,1
+Paracetamol_421,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_421,NN,1
+Ibuprofen_422,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_422,CN(N=O)C,1
+Caffeine_423,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_423,ClC=C,1
+Ethanol_424,CCO,0
+Benzene_424,c1ccccc1,1
+Glycine_425,C(C(=O)O)N,0
+Chloroform_425,ClC(Cl)Cl,1
+Acetic Acid_426,CC(=O)O,0
+Parathion_426,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_427,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_427,C=O,1
+Cyclohexane_428,C1CCCCC1,0
+Cyanide_428,N#C,1
+Acetone_429,CC(=O)C,0
+Sarin_429,CC(C)OP(=O)(C)F,1
+Methanol_430,CO,0
+Arsenic_430,O=[As]O[As]=O,1
+Water_431,O,0
+Mercury_431,[Hg],1
+Glycerol_432,C(C(CO)O)O,0
+Lead_432,[Pb],1
+Urea_433,C(=O)(N)N,0
+Dioxin_433,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_434,CC(C(=O)O)O,0
+Aflatoxin_434,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_435,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_435,ClC(Cl)(Cl)Cl,1
+Paracetamol_436,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_436,NN,1
+Ibuprofen_437,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_437,CN(N=O)C,1
+Caffeine_438,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_438,ClC=C,1
+Ethanol_439,CCO,0
+Benzene_439,c1ccccc1,1
+Glycine_440,C(C(=O)O)N,0
+Chloroform_440,ClC(Cl)Cl,1
+Acetic Acid_441,CC(=O)O,0
+Parathion_441,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_442,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_442,C=O,1
+Cyclohexane_443,C1CCCCC1,0
+Cyanide_443,N#C,1
+Acetone_444,CC(=O)C,0
+Sarin_444,CC(C)OP(=O)(C)F,1
+Methanol_445,CO,0
+Arsenic_445,O=[As]O[As]=O,1
+Water_446,O,0
+Mercury_446,[Hg],1
+Glycerol_447,C(C(CO)O)O,0
+Lead_447,[Pb],1
+Urea_448,C(=O)(N)N,0
+Dioxin_448,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_449,CC(C(=O)O)O,0
+Aflatoxin_449,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_450,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_450,ClC(Cl)(Cl)Cl,1
+Paracetamol_451,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_451,NN,1
+Ibuprofen_452,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_452,CN(N=O)C,1
+Caffeine_453,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_453,ClC=C,1
+Ethanol_454,CCO,0
+Benzene_454,c1ccccc1,1
+Glycine_455,C(C(=O)O)N,0
+Chloroform_455,ClC(Cl)Cl,1
+Acetic Acid_456,CC(=O)O,0
+Parathion_456,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_457,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_457,C=O,1
+Cyclohexane_458,C1CCCCC1,0
+Cyanide_458,N#C,1
+Acetone_459,CC(=O)C,0
+Sarin_459,CC(C)OP(=O)(C)F,1
+Methanol_460,CO,0
+Arsenic_460,O=[As]O[As]=O,1
+Water_461,O,0
+Mercury_461,[Hg],1
+Glycerol_462,C(C(CO)O)O,0
+Lead_462,[Pb],1
+Urea_463,C(=O)(N)N,0
+Dioxin_463,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_464,CC(C(=O)O)O,0
+Aflatoxin_464,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_465,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_465,ClC(Cl)(Cl)Cl,1
+Paracetamol_466,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_466,NN,1
+Ibuprofen_467,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_467,CN(N=O)C,1
+Caffeine_468,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_468,ClC=C,1
+Ethanol_469,CCO,0
+Benzene_469,c1ccccc1,1
+Glycine_470,C(C(=O)O)N,0
+Chloroform_470,ClC(Cl)Cl,1
+Acetic Acid_471,CC(=O)O,0
+Parathion_471,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_472,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_472,C=O,1
+Cyclohexane_473,C1CCCCC1,0
+Cyanide_473,N#C,1
+Acetone_474,CC(=O)C,0
+Sarin_474,CC(C)OP(=O)(C)F,1
+Methanol_475,CO,0
+Arsenic_475,O=[As]O[As]=O,1
+Water_476,O,0
+Mercury_476,[Hg],1
+Glycerol_477,C(C(CO)O)O,0
+Lead_477,[Pb],1
+Urea_478,C(=O)(N)N,0
+Dioxin_478,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_479,CC(C(=O)O)O,0
+Aflatoxin_479,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_480,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_480,ClC(Cl)(Cl)Cl,1
+Paracetamol_481,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_481,NN,1
+Ibuprofen_482,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_482,CN(N=O)C,1
+Caffeine_483,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_483,ClC=C,1
+Ethanol_484,CCO,0
+Benzene_484,c1ccccc1,1
+Glycine_485,C(C(=O)O)N,0
+Chloroform_485,ClC(Cl)Cl,1
+Acetic Acid_486,CC(=O)O,0
+Parathion_486,CCOP(=S)(OCC)Oc1ccc(cc1)[N+](=O)[O-],1
+Glucose_487,C(C1C(C(C(C(O1)O)O)O)O)O,0
+Formaldehyde_487,C=O,1
+Cyclohexane_488,C1CCCCC1,0
+Cyanide_488,N#C,1
+Acetone_489,CC(=O)C,0
+Sarin_489,CC(C)OP(=O)(C)F,1
+Methanol_490,CO,0
+Arsenic_490,O=[As]O[As]=O,1
+Water_491,O,0
+Mercury_491,[Hg],1
+Glycerol_492,C(C(CO)O)O,0
+Lead_492,[Pb],1
+Urea_493,C(=O)(N)N,0
+Dioxin_493,Clc1cc2c(Cl)c(Cl)c3c(c2c(Cl)c1Cl)Oc4c(Cl)c(Cl)c5c(c4O3)Cl,1
+Lactic Acid_494,CC(C(=O)O)O,0
+Aflatoxin_494,O=C1C=C2C3=C(C(=O)CC3)OC4=C2C5=C(C(=O)OCC5)O4,1
+Aspirin_495,CC(=O)OC1=CC=CC=C1C(=O)O,0
+Carbon Tetrachloride_495,ClC(Cl)(Cl)Cl,1
+Paracetamol_496,CC(=O)NC1=CC=C(O)C=C1,0
+Hydrazine_496,NN,1
+Ibuprofen_497,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,0
+NDMA_497,CN(N=O)C,1
+Caffeine_498,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,0
+Vinyl Chloride_498,ClC=C,1
+Ethanol_499,CCO,0
+Benzene_499,c1ccccc1,1
