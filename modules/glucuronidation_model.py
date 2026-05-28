@@ -7,8 +7,9 @@ Trained on PubChem/literature data with RF classifier.
 import numpy as np
 import os
 os.environ['RDKIT_SUPPRESS_WARNINGS'] = '1'
-from rdkit import Chem
-from rdkit.Chem import AllChem, Descriptors
+try:
+    from rdkit import Chem
+    from rdkit.Chem import AllChem, Descriptors
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 import os
@@ -154,3 +155,7 @@ def predict_glucuronidation(smiles: str) -> dict:
         "confidence": round(max(proba) * 100, 1),
         "interpretation": "Likely undergoes glucuronidation" if prediction == 1 else "Unlikely to be glucuronidated"
     }
+
+
+except ImportError:
+    print("RDKit not available - some features disabled")

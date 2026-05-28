@@ -7,8 +7,9 @@ import pandas as pd
 import numpy as np
 import os
 os.environ['RDKIT_SUPPRESS_WARNINGS'] = '1'
-from rdkit import Chem
-from rdkit.Chem import AllChem, Descriptors
+try:
+    from rdkit import Chem
+    from rdkit.Chem import AllChem, Descriptors
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
@@ -234,3 +235,7 @@ def predict_hepatotoxicity(smiles: str) -> dict:
         "confidence": round(confidence * 100, 1),
         "risk_level": "High" if proba[1] > 0.7 else "Medium" if proba[1] > 0.3 else "Low"
     }
+
+
+except ImportError:
+    print("RDKit not available - some features disabled")

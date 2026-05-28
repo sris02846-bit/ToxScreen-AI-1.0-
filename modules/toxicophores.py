@@ -5,7 +5,8 @@ Identifies toxic structural alerts using SMARTS patterns.
 
 import os
 os.environ['RDKIT_SUPPRESS_WARNINGS'] = '1'
-from rdkit import Chem
+try:
+    from rdkit import Chem
 from typing import Dict, List, Tuple
 import json
 import os
@@ -131,3 +132,7 @@ def evaluate_toxicophores(mol: Chem.Mol) -> Dict:
         "risk_level": risk_level,
         "total_alerts": len(detected)
     }
+
+
+except ImportError:
+    print("RDKit not available - some features disabled")

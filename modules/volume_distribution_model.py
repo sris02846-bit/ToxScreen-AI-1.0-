@@ -7,8 +7,9 @@ Trained with RandomForest regression.
 import numpy as np
 import os
 os.environ['RDKIT_SUPPRESS_WARNINGS'] = '1'
-from rdkit import Chem
-from rdkit.Chem import AllChem, Descriptors
+try:
+    from rdkit import Chem
+    from rdkit.Chem import AllChem, Descriptors
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 import os
@@ -150,3 +151,7 @@ def predict_volume_distribution(smiles: str) -> dict:
         "interpretation": interpretation,
         "total_body_water": f"{round(vd * 70, 1)} L (for 70 kg person)"
     }
+
+
+except ImportError:
+    print("RDKit not available - some features disabled")

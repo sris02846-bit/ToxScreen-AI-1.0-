@@ -5,8 +5,9 @@ Evaluates drug-likeness based on Lipinski's criteria.
 
 import os
 os.environ['RDKIT_SUPPRESS_WARNINGS'] = '1'
-from rdkit import Chem
-from rdkit.Chem import Descriptors, Crippen, Lipinski
+try:
+    from rdkit import Chem
+    from rdkit.Chem import Descriptors, Crippen, Lipinski
 from typing import Dict, List, Tuple
 
 
@@ -96,3 +97,7 @@ def evaluate_lipinski(mol: Chem.Mol) -> Dict:
         "violations": violations,
         "pass": violations == 0
     }
+
+
+except ImportError:
+    print("RDKit not available - some features disabled")

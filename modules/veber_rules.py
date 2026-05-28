@@ -5,8 +5,9 @@ Evaluates oral bioavailability based on Veber's criteria.
 
 import os
 os.environ['RDKIT_SUPPRESS_WARNINGS'] = '1'
-from rdkit import Chem
-from rdkit.Chem import Descriptors, rdMolDescriptors
+try:
+    from rdkit import Chem
+    from rdkit.Chem import Descriptors, rdMolDescriptors
 from typing import Dict, List, Tuple
 
 
@@ -80,3 +81,7 @@ def evaluate_veber(mol: Chem.Mol) -> Dict:
         "violations": violations,
         "pass": violations == 0
     }
+
+
+except ImportError:
+    print("RDKit not available - some features disabled")

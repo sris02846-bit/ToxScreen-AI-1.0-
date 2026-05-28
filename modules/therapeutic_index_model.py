@@ -7,8 +7,9 @@ Based on Tox21 and literature data.
 import numpy as np
 import os
 os.environ['RDKIT_SUPPRESS_WARNINGS'] = '1'
-from rdkit import Chem
-from rdkit.Chem import AllChem, Descriptors
+try:
+    from rdkit import Chem
+    from rdkit.Chem import AllChem, Descriptors
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 import os
@@ -144,3 +145,7 @@ def predict_therapeutic_index(smiles: str) -> dict:
         "interpretation": f"TD50 is approximately {round(ti, 1)}x the ED50",
         "confidence": "Based on molecular descriptor regression model"
     }
+
+
+except ImportError:
+    print("RDKit not available - some features disabled")

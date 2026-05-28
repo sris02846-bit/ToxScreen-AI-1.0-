@@ -6,8 +6,9 @@ Predicts clearance rate and calculates half-life using Vd.
 import numpy as np
 import os
 os.environ['RDKIT_SUPPRESS_WARNINGS'] = '1'
-from rdkit import Chem
-from rdkit.Chem import AllChem, Descriptors
+try:
+    from rdkit import Chem
+    from rdkit.Chem import AllChem, Descriptors
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 import os
@@ -191,3 +192,7 @@ def predict_clearance_and_halflife(smiles: str, vd: float = None) -> dict:
         result["half_life_interpretation"] = half_interp
     
     return result
+
+
+except ImportError:
+    print("RDKit not available - some features disabled")

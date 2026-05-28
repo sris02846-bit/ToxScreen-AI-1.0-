@@ -7,8 +7,9 @@ Trained on TDC CYP450 datasets with RF/XGBoost.
 import numpy as np
 import os
 os.environ['RDKIT_SUPPRESS_WARNINGS'] = '1'
-from rdkit import Chem
-from rdkit.Chem import AllChem, Descriptors
+try:
+    from rdkit import Chem
+    from rdkit.Chem import AllChem, Descriptors
 from sklearn.ensemble import RandomForestClassifier
 from xgboost import XGBClassifier
 from sklearn.model_selection import train_test_split
@@ -221,3 +222,7 @@ def predict_all_cyp(smiles: str) -> dict:
         results["overall_risk"] = "Low - No significant CYP inhibition"
     
     return results
+
+
+except ImportError:
+    print("RDKit not available - some features disabled")

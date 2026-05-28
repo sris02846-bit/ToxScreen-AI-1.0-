@@ -7,8 +7,9 @@ Trained with regression model (logPapp prediction).
 import numpy as np
 import os
 os.environ['RDKIT_SUPPRESS_WARNINGS'] = '1'
-from rdkit import Chem
-from rdkit.Chem import AllChem, Descriptors
+try:
+    from rdkit import Chem
+    from rdkit.Chem import AllChem, Descriptors
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 import os
@@ -152,3 +153,7 @@ def predict_caco2(smiles: str) -> dict:
         "threshold_high": "> -5",
         "threshold_low": "< -6"
     }
+
+
+except ImportError:
+    print("RDKit not available - some features disabled")

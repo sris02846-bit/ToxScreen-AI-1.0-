@@ -7,4 +7,3 @@ fpdf2>=2.7.0
 pyyaml>=6.0
 requests>=2.31.0
 streamlit-authenticator==0.2.3
-rdkit>=2023.9.0

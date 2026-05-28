@@ -6,9 +6,10 @@ Flags "Metabolic Activation Risk" if reactive metabolites detected.
 
 import os
 os.environ['RDKIT_SUPPRESS_WARNINGS'] = '1'
-from rdkit import Chem
-from rdkit.Chem import AllChem, Descriptors
-from rdkit.Chem import rdMolDescriptors
+try:
+    from rdkit import Chem
+    from rdkit.Chem import AllChem, Descriptors
+    from rdkit.Chem import rdMolDescriptors
 import os
 import sys
 from typing import List, Dict, Tuple
@@ -199,3 +200,7 @@ def assess_metabolic_activation_risk(smiles: str) -> Dict:
         result["warning"] = "No reactive metabolites detected. Low metabolic activation risk."
     
     return result
+
+
+except ImportError:
+    print("RDKit not available - some features disabled")

@@ -8,8 +8,9 @@ import pandas as pd
 import numpy as np
 import os
 os.environ['RDKIT_SUPPRESS_WARNINGS'] = '1'
-from rdkit import Chem
-from rdkit.Chem import AllChem, Descriptors, rdMolDescriptors
+try:
+    from rdkit import Chem
+    from rdkit.Chem import AllChem, Descriptors, rdMolDescriptors
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 import joblib
@@ -187,3 +188,7 @@ def predict_herg(smiles: str) -> dict:
         "confidence": round(max(proba) * 100, 1),
         "risk_level": risk
     }
+
+
+except ImportError:
+    print("RDKit not available - some features disabled")

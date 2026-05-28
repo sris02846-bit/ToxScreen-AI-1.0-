@@ -5,8 +5,9 @@ Handles SMILES parsing and basic molecular property calculations.
 
 import os
 os.environ['RDKIT_SUPPRESS_WARNINGS'] = '1'
-from rdkit import Chem
-from rdkit.Chem import Descriptors, rdMolDescriptors
+try:
+    from rdkit import Chem
+    from rdkit.Chem import Descriptors, rdMolDescriptors
 from typing import Dict, Tuple, Optional
 import sys
 
@@ -65,3 +66,7 @@ def calculate_molecular_weight(mol: Chem.Mol) -> float:
         Molecular weight in g/mol
     """
     return Descriptors.MolWt(mol)
+
+
+except ImportError:
+    print("RDKit not available - some features disabled")

@@ -5,11 +5,13 @@ Generates molecular fingerprints and calculates Tanimoto similarity.
 
 import os
 os.environ['RDKIT_SUPPRESS_WARNINGS'] = '1'
-from rdkit import Chem
-from rdkit.Chem import AllChem, DataStructs
+try:
+    from rdkit import Chem
+    from rdkit.Chem import AllChem, DataStructs
 import os
 os.environ['RDKIT_SUPPRESS_WARNINGS'] = '1'
-from rdkit import DataStructs as DS
+try:
+    from rdkit import DataStructs as DS
 import pandas as pd
 import os
 from typing import List, Dict, Tuple, Optional
@@ -168,3 +170,7 @@ def compare_toxin_similarity(query_smiles: str) -> Dict:
         result['alert_level'] = "low"
     
     return result
+
+
+except ImportError:
+    print("RDKit not available - some features disabled")
