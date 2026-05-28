@@ -1,0 +1,5 @@
+libxrender1
+libxext6
+libxtst6
+libxi6
+libgl1-mesa-glx
