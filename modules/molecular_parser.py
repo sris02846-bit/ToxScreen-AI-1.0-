@@ -3,24 +3,14 @@ Molecular Parser Module
 Handles SMILES parsing and basic molecular property calculations.
 """
 
-import os
-os.environ['RDKIT_SUPPRESS_WARNINGS'] = '1'
-try:
-    from rdkit import Chem
-    from rdkit.Chem import Descriptors, rdMolDescriptors
+from rdkit import Chem
+from rdkit.Chem import Descriptors, rdMolDescriptors
 from typing import Dict, Tuple, Optional
-import sys
 
 
 def parse_smiles(smiles: str) -> Tuple[Optional[Chem.Mol], Optional[str]]:
     """
     Parse SMILES string and return RDKit molecule object.
-    
-    Args:
-        smiles: SMILES notation string
-        
-    Returns:
-        Tuple of (RDKit Mol object or None, error message or None)
     """
     if not smiles or not smiles.strip():
         return None, "Please enter a valid SMILES string."
@@ -37,12 +27,6 @@ def parse_smiles(smiles: str) -> Tuple[Optional[Chem.Mol], Optional[str]]:
 def calculate_basic_properties(mol: Chem.Mol) -> Dict:
     """
     Calculate fundamental molecular properties.
-    
-    Args:
-        mol: RDKit molecule object
-        
-    Returns:
-        Dictionary containing molecular properties
     """
     properties = {
         "Molecular Formula": rdMolDescriptors.CalcMolFormula(mol),
@@ -58,15 +42,5 @@ def calculate_basic_properties(mol: Chem.Mol) -> Dict:
 def calculate_molecular_weight(mol: Chem.Mol) -> float:
     """
     Calculate exact molecular weight.
-    
-    Args:
-        mol: RDKit molecule object
-        
-    Returns:
-        Molecular weight in g/mol
     """
     return Descriptors.MolWt(mol)
-
-
-except ImportError:
-    print("RDKit not available - some features disabled")
